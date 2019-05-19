@@ -1,11 +1,9 @@
-import React from 'react';
-import LinkList from '../LinkList'
-import './App.css';
+import React from "react";
+import CreateLink from "../CreateLink";
+import "./App.css";
 
 function App() {
-  return (
-    <LinkList />
-  );
+  return <CreateLink />;
 }
 
 export default App;
