@@ -26,7 +26,6 @@ const VOTE_MUTATION = gql`
 
 const Link = ({ id, description, url, votes, postedBy, createdAt, index, updateStoreAfterVote }) => {
   const authToken = localStorage.getItem(AUTH_TOKEN);
-  const _voteForLink = () => {};
 
   return (
     <div className="flex mt2 items-start">
